@@ -63,8 +63,8 @@ namespace Lybra.Web
 
                 if (env.IsDevelopment())
                 {
-                    //spa.UseAngularCliServer(npmScript: "start");        //Altair Aula 1.16 - Não executar verificação do Angular
-                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200/");  //Altair Aula 1.16 - Indica onde está o projeto de Angular
+                    //spa.UseAngularCliServer(npmScript: "start");        //Altair Aula 16 - Não executar verificação do Angular
+                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200/");  //Altair Aula 16 - Indica onde está o projeto de Angular
                 }
             });
         }
